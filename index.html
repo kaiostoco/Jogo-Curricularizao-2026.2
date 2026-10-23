@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jardim das Descobertas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="home">
+  <div class="center">
+    <h1>🌈 Jardim das Descobertas</h1>
+    <p class="sub">Escolha uma brincadeira!</p>
+  </div>
+  <div class="grid" id="menu"></div>
+</main>
+
+<main id="game" class="hidden" aria-live="polite">
+  <div class="top">
+    <button class="back" id="back">⬅ Voltar</button>
+    <div class="stars" id="stars" aria-label="Estrelas"></div>
+    <button class="say" id="say" aria-label="Ouvir de novo">🔊</button>
+  </div>
+  <section class="q">
+    <h2 id="prompt"></h2>
+    <div class="vis" id="vis"></div>
+  </section>
+  <div class="opts" id="opts"></div>
+  <div class="msg" id="msg"></div>
+</main>
+
+<footer>Jogo feito por Maicon Edras e Kaio Stoco<br>Centro Universitário da Fundação Educacional de Brusque - UNIFEBE</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
