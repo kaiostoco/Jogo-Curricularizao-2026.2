@@ -1,0 +1,1 @@
+# Jogo-Curricularizao-2026.2
